@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 
-    @RequestMapping("/helloworld8080")
+    @RequestMapping("/helloworld8081")
     public String home() {
-        return "Hello Docker World 8080";
+        return "Hello Docker World 8081";
     }
 
     public static void main(String[] args) {
